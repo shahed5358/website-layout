@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo Album</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/28f35e873d.js" crossorigin="anonymous"></script>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .photo-frame {
+            width: 300px;
+            height: 200px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .photo-detail {
+            display: none;
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            top: 0;
+
+        }
+
+        .photo-detail h3 {
+            background-color: black;
+            color: white;
+            s text-align: center;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(199, 180, 134, 0.7);
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.2);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="flex-use.html" target="_blank" rel="noopener noreferrer">Home</a>
+                <a href="flexbox.html" target="_blank" rel="noopener noreferrer">Flexbox</a>
+                <a href="calender.html" target="_blank" rel="noopener noreferrer">calender</a>
+                <a href="grid.html" target="_blank" rel="noopener noreferrer">Grid</a>
+                <a href="responsive.html" target="_blank" rel="noopener noreferrer">Responsive</a>
+                <a href="album.html" target="_blank" rel="noopener noreferrer">Photo Album</a>
+                <a href="" target="_blank" rel="noopener noreferrer">Contact Us</a>
+            </span>
+            <span>
+                <a href="" target="_blank" rel="noopener noreferrer"><i class="fas fa-user"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fas fa-sign-out-alt"></i></a>
+            </span>
+        </nav>
+    </header>
+    <h1>My awesome photo album with tiger mama</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="tiger.jpg" alt="">
+                    <div class="photo-detail">
+                        <h3>Tiger Mama Candid</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vitae quaerat? Obcaecati
+                            magnam dolores dignissimos dolore tempore sapiente dolorum molestiae at laboriosam expedita
+                            doloremque, repudiandae voluptas iusto temporibus aliquid corporis!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
